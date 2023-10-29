@@ -30,3 +30,9 @@ or
 pgbench -h localhost -p 5433 -U postgres -d postgres -M simple -f script1.sql
 pgbench -h localhost -p 5433 -U postgres -d postgres -M prepared -f script1.sql
 ```
+
+Import more data to the database:
+
+```
+docker container exec -i $(docker-compose ps -q postgres) psql -U postgres < tables.sql
+```
