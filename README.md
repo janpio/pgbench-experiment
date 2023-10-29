@@ -1,5 +1,7 @@
 # pgbench-experiment
 
+Small experiment with [pgbench](https://www.postgresql.org/docs/current/pgbench.html) to reproduce results from [this blog post](https://www.roji.org/prepared-statements-in-npgsql-3-2).
+
 ## Installation
 
 ```
