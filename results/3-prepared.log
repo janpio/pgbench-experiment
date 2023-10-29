@@ -1,0 +1,11 @@
+pgbench (14.9 (Ubuntu 14.9-0ubuntu0.22.04.1))
+transaction type: 3-join5.sql
+scaling factor: 1
+query mode: prepared
+number of clients: 1
+number of threads: 1
+duration: 20 s
+number of transactions actually processed: 88352
+latency average = 0.226 ms
+initial connection time = 13.690 ms
+tps = 4420.587433 (without initial connection time)
